@@ -3,7 +3,7 @@ package org.favila.spark.poc.api
 import org.favila.spark.poc.containers.Data
 import org.favila.spark.poc.transforms.Sample
 
-object Api {
+class Api {
 
   def foo(dat :Data, name: String, number: Double): Data = {
     val df = dat.getDF()
